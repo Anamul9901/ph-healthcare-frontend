@@ -1,10 +1,11 @@
-import { Button } from "@mui/material"
+import HeroSection from "@/components/Shared/UI/HomePage/HeroSection/HeroSection"
+import Specialist from "@/components/Shared/UI/HomePage/Specialist/Specialist"
 
 const page = () => {
   return (
     <div>
-      <h2>Home Page</h2>
-      <Button >Text</Button>
+      <HeroSection />
+      <Specialist/>
     </div>
   )
 }

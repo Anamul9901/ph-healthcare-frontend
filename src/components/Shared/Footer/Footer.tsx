@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 import facebookIcon from "@/assets/landing_page/facebook.png"
-import { Box, Typography } from '@mui/material'
+import { Box, Container, Typography } from '@mui/material'
 import Link from 'next/link'
 
 const Footer = () => {
     return (
         <div className='bg-[#111A22] text-white p-8 text-center'>
-            <div className='max-w-7xl mx-auto items-center'>
+           <Container>
+
                 <div className='flex gap-8 justify-center'>
                     <a href="">Health Plans</a>
                     <a href="">Medicine</a>
@@ -28,7 +29,8 @@ const Footer = () => {
                     </Typography>
                     <p>Privacy Policy! Terms & Condition</p>
                 </div>
-            </div>
+           </Container>
+          
         </div>
     )
 }
