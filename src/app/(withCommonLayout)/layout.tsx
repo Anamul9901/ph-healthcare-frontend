@@ -1,0 +1,13 @@
+import Navber from "@/components/Shared/Navber/Navber"
+import React from "react"
+
+const CommonLayout = ({ children }: { children: React.ReactNode }) => {
+    return (
+        <div>
+            <Navber />
+            {children}
+        </div>
+    )
+}
+
+export default CommonLayout;
